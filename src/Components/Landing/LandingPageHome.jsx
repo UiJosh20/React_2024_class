@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Example from "../example/Example";
 
 const LandingPageHome = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -32,6 +33,7 @@ const LandingPageHome = () => {
       ) : (
         <section>
           <h1>Welcome to the use state class</h1>
+          <Example/>
         </section>
       )}
     </>

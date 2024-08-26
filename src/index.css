@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li{
+  font-size: 13px;
+}
+
 /* From Uiverse.io by SchawnnahJ */ 
 .loader {
   position: relative;
